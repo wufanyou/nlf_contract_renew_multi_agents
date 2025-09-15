@@ -1,0 +1,132 @@
+
+# Player Performance and Market Analysis
+player_performance_analysis:
+  description: >
+    Analyze the player's performance metrics, statistics, and achievements over the past {analysis_period} seasons.
+    Compare performance against other {position} players in the league and evaluate market value trends.
+    Include analysis of injuries, games missed, and consistency metrics.
+    Research comparable contract deals for similar players at the {position} position.
+  expected_output: >
+    A comprehensive performance report with statistical analysis, market comparisons, and recommended salary range 
+    based on current market conditions for {position} players with similar experience and performance levels.
+  agent: player_agent
+
+# Team Salary Cap and Financial Analysis  
+salary_cap_analysis:
+  description: >
+    Conduct a detailed analysis of {team_name}'s current salary cap situation, including committed contracts,
+    dead money, and projected cap space for the next {contract_years} years.
+    Evaluate how signing the {position} player fits within the team's overall financial strategy and roster construction.
+    Identify potential restructuring opportunities with existing contracts to create additional cap space.
+  expected_output: >
+    A detailed financial report showing current cap situation, projected cap space, and multiple contract structure 
+    scenarios that work within the team's budget constraints while meeting competitive market rates.
+  agent: general_manager
+
+# Contract Terms Negotiation
+contract_terms_negotiation:
+  description: >
+    Develop initial contract proposal including base salary, signing bonus, guaranteed money, incentives, and contract length.
+    Structure the deal to maximize value for the player while considering team's cap constraints.
+    Include performance incentives tied to {performance_metrics} and team success metrics.
+    Address injury protection, guaranteed money at signing vs. future guarantees.
+  expected_output: >
+    A detailed contract proposal with multiple scenarios (conservative, moderate, aggressive) including all financial terms,
+    incentive structures, and protective clauses that benefit the player while remaining competitive in the market.
+  agent: player_agent
+
+# Family Financial Security Assessment
+family_financial_planning:
+  description: >
+    Evaluate the contract proposals from a family financial security perspective, considering long-term wealth preservation,
+    tax implications, and protection against career-ending injuries.
+    Assess the guaranteed money components and insurance provisions to ensure family's {family_priorities} are met.
+    Consider factors like {children_education}, retirement planning, and generational wealth building.
+  expected_output: >
+    A family-focused financial analysis report highlighting the security aspects of different contract scenarios,
+    recommendations for guaranteed money minimums, and long-term financial planning considerations for the family.
+  agent: player_family
+
+# Team Roster Construction Strategy
+roster_construction_analysis:
+  description: >
+    Analyze how retaining the {position} player fits into the team's overall roster construction and championship aspirations.
+    Evaluate the impact on ability to sign other key players and maintain competitive depth across all positions.
+    Consider the player's leadership role, team chemistry impact, and strategic importance to the {team_strategy}.
+    Assess alternatives including draft picks, free agency, and trades if the player is not retained.
+  expected_output: >
+    A strategic roster analysis showing how different contract scenarios impact team building, competitive positioning,
+    and championship window considerations. Include alternative player acquisition strategies if needed.
+  agent: general_manager
+
+# Coaching Staff Input and Player Evaluation
+coaching_evaluation:
+  description: >
+    Provide coaching staff perspective on the player's value to the team's offensive/defensive scheme and overall success.
+    Evaluate the player's leadership qualities, work ethic, and cultural fit within the team.
+    Assess how the player's skills align with the team's future strategic direction and system requirements.
+    Consider the difficulty and cost of replacing the player's production and leadership.
+  expected_output: >
+    A coaching evaluation report detailing the player's on-field and off-field value, irreplaceability factor,
+    and strategic importance to team success. Include recommendations on contract priority level.
+  agent: head_coach
+
+# Ownership Business Impact Assessment
+business_impact_analysis:
+  description: >
+    Evaluate the business and franchise impact of retaining or losing the {position} player.
+    Analyze fan engagement, merchandise sales, ticket sales, and media value associated with the player.
+    Consider the player's marketability, community involvement, and brand value to the franchise.
+    Assess competitive balance in the division and conference with different contract decisions.
+  expected_output: >
+    A comprehensive business impact report showing financial and brand implications of the contract decision,
+    including revenue projections, fan sentiment analysis, and competitive positioning in the {division} division.
+  agent: team_owner
+
+# Contract Risk Assessment
+risk_assessment_analysis:
+  description: >
+    Conduct thorough risk analysis of different contract structures, considering injury history, age, position longevity,
+    and performance decline scenarios. Evaluate guaranteed money exposure and cap impact of potential injuries.
+    Analyze market trends for {position} players and potential contract value depreciation over the contract term.
+    Consider escape clauses, team options, and restructuring possibilities.
+  expected_output: >
+    A detailed risk assessment report with probability scenarios for different outcomes, financial exposure analysis,
+    and recommended risk mitigation strategies through contract structure and terms.
+  agent: general_manager
+
+# Market Leverage and Timing Analysis
+market_leverage_analysis:
+  description: >
+    Analyze the player's leverage position in negotiations, including other team interest, franchise tag implications,
+    and free agency market conditions. Evaluate optimal timing for contract extension vs. letting contract expire.
+    Research comparable recent deals and market trends that support the player's position.
+    Assess the team's leverage including replacement options and competitive alternatives.
+  expected_output: >
+    A strategic leverage analysis showing negotiation strengths for both sides, optimal timing recommendations,
+    and market factors that influence negotiating position and contract urgency.
+  agent: player_agent
+
+# Final Contract Recommendation
+contract_recommendation:
+  description: >
+    Synthesize all analysis from performance, financial, family, coaching, business, and risk perspectives.
+    Develop final contract recommendations that balance all stakeholder interests and market realities.
+    Create implementation timeline and communication strategy for contract announcement.
+    Address any remaining concerns from stakeholders and provide final negotiation strategy.
+  expected_output: >
+    A comprehensive final report with specific contract terms recommendation, rationale for all major provisions,
+    implementation plan, and stakeholder communication strategy. Include fallback scenarios if primary deal fails.
+  agent: player_agent
+
+# Media and Public Relations Strategy
+media_strategy_planning:
+  description: >
+    Develop communication strategy for contract announcement, addressing fan expectations and media coverage.
+    Plan messaging that highlights mutual commitment between player and organization.
+    Prepare responses to potential criticism about contract size or terms from media and fans.
+    Coordinate timing of announcement with team's other roster moves and public relations calendar.
+  expected_output: >
+    A complete media and PR strategy with key messages, communication timeline, and crisis communication plan
+    for potential negative reactions to the contract terms or negotiations process.
+  agent: team_owner
