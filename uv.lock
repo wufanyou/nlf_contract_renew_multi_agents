@@ -1,5 +1,5 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = ">=3.10, <3.14"
 resolution-markers = [
     "python_full_version >= '3.13'",
@@ -2209,11 +2209,15 @@ name = "nfl-contract"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
+    { name = "anthropic" },
     { name = "crewai", extra = ["tools"] },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "crewai", extras = ["tools"], specifier = ">=0.186.1,<1.0.0" }]
+requires-dist = [
+    { name = "anthropic", specifier = ">=0.67.0" },
+    { name = "crewai", extras = ["tools"], specifier = ">=0.186.1,<1.0.0" },
+]
 
 [[package]]
 name = "nodeenv"

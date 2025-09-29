@@ -1,0 +1,47 @@
+<output>
+<player_information>
+        <position>Wide Receiver</position>
+        <player_name>Calvin Ridley</player_name>
+        <years_experience>7</years_experience>
+        <key_achievements>PFWA All-Rookie Team (2018), Second-team All-Pro (2020), College National Championships (2015, 2017), Led NFL in air yards (1,849) in 2024</key_achievements>
+        <performance_goals>Establishing consistent chemistry with rookie QB Cam Ward, returning to elite WR1 production, and helping the Titans compete in the AFC South</performance_goals>
+    </player_information>
+    
+    <team_information>
+        <team_name>Tennessee Titans</team_name>
+        <division>AFC South</division>
+        <team_strategy>Rebuilding around rookie quarterback Cam Ward and establishing a competitive offense</team_strategy>
+        <team_success>3-14 record in 2024 season, 4th place in AFC South division</team_success>
+        <salary_cap_space>$19 million (2025)</salary_cap_space>
+    </team_information>
+    
+    <contract_financial_details>
+        <contract_years>4</contract_years>
+        <analysis_period>2</analysis_period>
+        <performance_metrics>receptions, receiving yards, touchdowns, target share, air yards, and team offensive production</performance_metrics>
+    </contract_financial_details>
+    
+    <agent_information>
+        <agent_experience>Not specified in available data</agent_experience>
+        <total_contracts_value>$92 million (current Titans contract)</total_contracts_value>
+    </agent_information>
+    
+    <family_information>
+        <dependents_count>Not specified in available data</dependents_count>
+        <family_priorities>Not specified in available data</family_priorities>
+        <children_education>Not specified in available data</children_education>
+    </family_information>
+    
+    <coaching_management>
+        <coaching_experience>Not specified in available data</coaching_experience>
+        <player_coach_relationship>Working with new coaching staff under Brian Callahan</player_coach_relationship>
+        <gm_experience>Working under GM Ran Carthon</gm_experience>
+    </coaching_management>
+    
+    <ownership_information>
+        <ownership_experience>Amy Adams Strunk ownership</ownership_experience>
+        <franchise_value>Not specified in available data</franchise_value>
+        <championship_success>No recent playoff success, rebuilding phase</championship_success>
+        <business_priorities>Team rebuilding and establishing competitive foundation</business_priorities>
+    </ownership_information>
+</output>

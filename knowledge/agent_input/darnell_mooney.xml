@@ -1,0 +1,47 @@
+<output>
+<player_information>
+        <position>Wide Receiver</position>
+        <player_name>Darnell Mooney</player_name>
+        <years_experience>6</years_experience>
+        <key_achievements>Career-high 81 receptions and 1,055 receiving yards in 2021, set Bears franchise record for most catches by a rookie (61 in 2020), signed 3-year $39 million contract with Atlanta Falcons in 2024, recorded career-high 5 touchdowns in 2024</key_achievements>
+        <performance_goals>Establishing himself as a consistent deep threat and primary receiving option for the Falcons offense</performance_goals>
+    </player_information>
+    
+    <team_information>
+        <team_name>Atlanta Falcons</team_name>
+        <division>NFC South</division>
+        <team_strategy>Building offensive firepower around new quarterback Kirk Cousins and deep receiving corps</team_strategy>
+        <team_success>Recently retooled roster with significant offensive additions in 2024</team_success>
+        <salary_cap_space>$6.3 million</salary_cap_space>
+    </team_information>
+    
+    <contract_financial_details>
+        <contract_years>3</contract_years>
+        <analysis_period>2</analysis_period>
+        <performance_metrics>receptions, receiving yards, yards per catch average, deep ball connections, and touchdown production</performance_metrics>
+    </contract_financial_details>
+    
+    <agent_information>
+        <agent_experience>Not specified</agent_experience>
+        <total_contracts_value>39</total_contracts_value>
+    </agent_information>
+    
+    <family_information>
+        <dependents_count>Not specified</dependents_count>
+        <family_priorities>Not publicly disclosed</family_priorities>
+        <children_education>Not specified</children_education>
+    </family_information>
+    
+    <coaching_management>
+        <coaching_experience>Not specified</coaching_experience>
+        <player_coach_relationship>2</player_coach_relationship>
+        <gm_experience>Not specified</gm_experience>
+    </coaching_management>
+    
+    <ownership_information>
+        <ownership_experience>Not specified</ownership_experience>
+        <franchise_value>Not specified</franchise_value>
+        <championship_success>No recent Super Bowl appearances</championship_success>
+        <business_priorities>Team rebuilding and competitive improvement</business_priorities>
+    </ownership_information>
+</output>
