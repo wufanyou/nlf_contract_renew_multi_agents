@@ -38,10 +38,8 @@ def prepare_inputs(player_id: int):
 def run():
 
     try:
-        inputs = prepare_inputs(PLAYER_ID)
-
-        NflContract().crew(output_log_file=True, player_id=PLAYER_ID).kickoff(
-            inputs=inputs
+        NflContract().crew().kickoff(
+            inputs=prepare_inputs(PLAYER_ID)
         )
     except Exception as e:
         raise Exception(f"An error occurred while running the crew: {e}")

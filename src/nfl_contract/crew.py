@@ -8,7 +8,7 @@ from crewai.knowledge.source.csv_knowledge_source import CSVKnowledgeSource
 from crewai.project import CrewBase, agent, crew, task
 
 CONTRACT_DATA = "./knowledge/contract_details.csv"
-STAT_DATA = "./knowledge/wr_stats_for_ai_negotiator.csv"
+STAT_DATA = "wr_stats_for_ai_negotiator.csv"
 PLAYER_ID = int(os.getenv("PLAYER_ID")) # type: ignore
 
 def prepare_data(player_id: int) -> str:
@@ -17,9 +17,8 @@ def prepare_data(player_id: int) -> str:
     contract_date = df.iloc[player_id]["contract_date"]
     df = df[df['contract_date'] < contract_date].reset_index(drop=True)
     df = df.sort_values(by='contract_date', ascending=False).reset_index(drop=True)
-    temp_file = tempfile.NamedTemporaryFile(delete=False, suffix=".csv")
-    df.to_csv(temp_file.name, index=False)
-    return temp_file.name
+    df.to_csv("./knowledge/temp_knowledge.csv", index=False)
+    return "temp_knowledge.csv"
 
 
 @CrewBase
@@ -149,10 +148,13 @@ class NflContract:
                 file_path=STAT_DATA, collection_name="wr_stats_for_recent_3_years"
             ),
         ]
+
+        os.makedirs(f'./output/{PLAYER_ID}', exist_ok=True)
         return Crew(
             agents=self.agents,
             tasks=self.tasks,
             process=Process.sequential,
             verbose=True,
+            output_log_file=f'./output/{PLAYER_ID}/crew',
             knowledge_sources=knowledge_sources,  # type: ignore[call-arg]
         )
