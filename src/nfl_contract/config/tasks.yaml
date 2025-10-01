@@ -117,6 +117,10 @@ contract_recommendation:
   expected_output: >
     A comprehensive final report with specific contract terms recommendation, rationale for all major provisions,
     implementation plan, and stakeholder communication strategy. Include fallback scenarios if primary deal fails.
+    Also output key contract terms in the JSON format:
+      - yrs: Total number of years in the contract (integer)
+      - value: Total contract value in dollars (float)
+      - signing_bonus: Signing bonus amount in dollars (float)
   agent: player_agent
 
 # Media and Public Relations Strategy
