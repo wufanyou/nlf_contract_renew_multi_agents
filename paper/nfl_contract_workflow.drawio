@@ -1,0 +1,184 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="NFL Contract Negotiation Workflow" id="nfl-contract-flow">
+    <mxGraphModel dx="3217" dy="978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="edge5" style="fillColor=#f5f5f5;strokeColor=#666666;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="general_manager" target="task2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" style="fillColor=#f5f5f5;strokeColor=#666666;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="player_agent" target="task3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" style="fillColor=#f5f5f5;strokeColor=#666666;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="player_agent" target="task10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge9" style="fillColor=#f5f5f5;strokeColor=#666666;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="team_owner" target="task7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge10" style="fillColor=#f5f5f5;strokeColor=#666666;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="team_owner" target="task11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge11" style="fillColor=#f5f5f5;strokeColor=#666666;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="player_family" target="task4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow3" style="fillColor=#f5f5f5;strokeColor=#666666;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="task3" target="task4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="630" as="sourcePoint" />
+            <mxPoint x="-40" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="670" />
+              <mxPoint x="-40" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow7" style="fillColor=#f5f5f5;strokeColor=#666666;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="task7" target="task8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="750" as="sourcePoint" />
+            <mxPoint x="-40" y="810" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="790" />
+              <mxPoint x="-40" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge1" style="fillColor=#f5f5f5;strokeColor=#666666;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="player_agent" target="task1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" style="fillColor=#f5f5f5;strokeColor=#666666;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="general_manager" target="task5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge8" style="fillColor=#f5f5f5;strokeColor=#666666;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="head_coach" target="task6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow4" style="fillColor=#f5f5f5;strokeColor=#666666;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="task4" target="task5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow5" style="fillColor=#f5f5f5;strokeColor=#666666;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="task5" target="task6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow10" style="fillColor=#f5f5f5;strokeColor=#666666;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="task10" target="task11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" style="fillColor=#f5f5f5;strokeColor=#666666;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="player_agent" target="task9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge7" style="fillColor=#f5f5f5;strokeColor=#666666;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="general_manager" target="task8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow1" style="fillColor=#f5f5f5;strokeColor=#666666;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="task1" target="task2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="600" as="sourcePoint" />
+            <mxPoint x="100" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow2" style="fillColor=#f5f5f5;strokeColor=#666666;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="task2" target="task3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow8" style="fillColor=#f5f5f5;strokeColor=#666666;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="task8" target="task9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow9" style="fillColor=#f5f5f5;strokeColor=#666666;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="task9" target="task10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="870" as="sourcePoint" />
+            <mxPoint x="-40" y="930" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="910" />
+              <mxPoint x="-40" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="title" value="NFL Contract Negotiation Multi-Agent System" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="560" y="20" width="540" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="player_agent" value="Player Agent&#xa;&#xa;• Market Analysis&#xa;• Contract Terms&#xa;• Leverage Strategy&#xa;• Final Recommendation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="-130" y="360" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="general_manager" value="General Manager&#xa;&#xa;• Salary Cap Analysis&#xa;• Roster Construction&#xa;• Risk Assessment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="110" y="360" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="head_coach" value="Head Coach&#xa;&#xa;• Player Evaluation&#xa;• Team Chemistry&#xa;• Strategic Value" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="350" y="360" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="team_owner" value="Team Owner&#xa;&#xa;• Business Impact&#xa;• Media Strategy&#xa;• Fan Relations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="590" y="360" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="player_family" value="Player Family&#xa;&#xa;• Financial Security&#xa;• Long-term Planning&#xa;• Risk Protection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="830" y="360" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="task1" value="1. Player Performance Analysis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="-130" y="580" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="task2" value="2. Salary Cap Analysis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="110" y="580" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="task3" value="3. Contract Terms Negotiation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="350" y="580" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="task4" value="4. Family Financial Planning" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="-130" y="700" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="task5" value="5. Roster Construction Analysis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="110" y="700" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="task6" value="6. Coaching Evaluation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="350" y="700" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="task7" value="7. Business Impact Analysis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="590" y="700" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="task8" value="8. Risk Assessment Analysis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="-130" y="820" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="task9" value="9. Market Leverage Analysis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="110" y="820" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="task10" value="10. Contract Recommendation&#xa;(JSON Output)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="-130" y="940" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="task11" value="11. Media Strategy Planning" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="110" y="940" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="flow6" style="sketch=1;curveFitting=1;jiggle=2;" parent="1" source="task6" target="task7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_title" value="Legend" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="830" y="540" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_player_agent" value="Player Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="830" y="580" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_general_manager" value="General Manager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="830" y="615" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_head_coach" value="Head Coach" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="830" y="650" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_team_owner" value="Team Owner" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="830" y="685" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_player_family" value="Player Family" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="830" y="720" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="data_sources_title" value="Data Sources" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="830" y="800" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="data_source1" value="Contract Details CSV&#xa;(Historical Contracts)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#666666;fontSize=10;align=center;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="830" y="840" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="data_source2" value="WR Stats CSV&#xa;(Performance Data)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#666666;fontSize=10;align=center;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="830" y="890" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="data_source3" value="Agent Input XML&#xa;(Player Context)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#666666;fontSize=10;align=center;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="830" y="940" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="json_output" value="📄 JSON Contract Output&#xa;{&#xa;  &quot;start_year&quot;: 2024,&#xa;  &quot;end_year&quot;: 2028,&#xa;  &quot;yrs&quot;: 4,&#xa;  &quot;value&quot;: 120000000.0,&#xa;  &quot;average_salary&quot;: 30000000.0,&#xa;  &quot;average_percent_of_cap_at_sign&quot;: &quot;11.75%&quot;,&#xa;  &quot;signing_bonus&quot;: 25000000.0&#xa;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;fontFamily=Courier New;align=left;verticalAlign=top;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="360" y="850" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_description" value="Sequential Process Flow →" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontStyle=2;fontColor=#666666;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="340" y="500" width="180" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

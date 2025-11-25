@@ -14,12 +14,8 @@
 To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
 
 ```bash
-$ uv run nfl_contract run
+$ PLAYER_ID=0 uv run crewai run
 ```
-
-This command initializes the nfl_contract Crew, assembling the agents and assigning them tasks as defined in your configuration.
-
-This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
 
 ## Understanding Your Crew
 
